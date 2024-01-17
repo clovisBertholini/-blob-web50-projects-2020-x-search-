@@ -1,0 +1,243 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-shrink: 0;
+    min-height: 150px;
+    min-width: 380px;
+    padding-top: 6px;
+    padding-bottom: 85px;
+    width: 100%;
+    flex-grow: 1;
+    margin: 0 0 0 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 48px;
+    padding: 6px;  
+    white-space: nowrap; 
+}
+
+.menuItens {
+    display: flex;
+    justify-content: right;
+    box-sizing: border-box;
+    line-height: normal;
+    float: right;
+    padding-left: 25px;
+}
+
+a {
+    
+    resize: none;
+    width: auto;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+    
+    padding-right: 25px;
+    text-decoration: none;
+     
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 290px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: 272px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.textField {
+    display: flex;
+    resize: none;
+    z-index: 1;
+    font-size: 16px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    margin: 0 auto;
+    padding-left: 24px;
+    width: 588px;
+    min-width: 388px;
+    min-height: 44px;
+    outline: none;
+    position: relative;
+}
+
+.textField:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+.fieldSerch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px 8px 0 14px;
+    flex: 0 0 auto;
+    z-index: 1;
+    margin-bottom: 20px;
+    align-items: center;
+    height: 44px;
+}
+
+.glassSearch {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+    height: 46px;
+}
+
+.sGlassSearch {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    color: #9aa0a6;
+    display: flex;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+}
+
+.sGlassSearch svg {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    cursor: text;
+    margin-top: -5px;
+    height: 46px;
+    z-index: 2;
+}
+
+.hideTextField {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgba(0,0,0,0.0);
+    color: black;
+    border-color: transparent;
+    box-shadow: transparent;
+    width: 435px;
+    outline: none;
+}
+.textArea {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    flex: 2;
+    margin-top: 6px;
+    margin-left: 20px;
+    margin-right: 40px;
+    cursor: text;
+    font-size: 16px;
+    font-weight: 400;
+    height: 27px;
+    line-height: 22px;
+    margin-bottom: 18px;
+    overflow-wrap: break-word;
+    text-align: start;
+    position: absolute;
+    z-index: 2;
+}
+
+.searchIcons {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: center;
+    flex-direction: row;
+    height: 44px;
+    z-index: 2;
+}
+
+.keyboardSearch, .microphoneSearch, .imageSearch {
+    align-items: flex-end;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    height: 30px;
+    width: 25px;
+    line-height: 44px;
+    z-index: 2;
+}
+
+.iMicrophoneSearch, .iImageSearch {
+    color: rgb(32, 33, 36);
+    cursor: pointer;
+    display: flex;
+    line-height: 44px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: auto;
+    width: auto;
+    padding-bottom: 4px;
+}
+
+.iKeyboardSearch {
+    padding-right: 4px;
+}
+
+.buttonSearch {
+    resize: none;
+    border-radius: 4px;
+    border: none;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttonSearch:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.buttonGoogle {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
